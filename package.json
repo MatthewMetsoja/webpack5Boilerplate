@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js --open chrome ",
+    "prod": "webpack --config webpack.prod.js",
+    "watch": "--watch"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "autoprefixer": "^10.2.4",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.27.5",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.2",
+    "css-minimizer-webpack-plugin": "^1.2.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-hot-plugin": "^1.2.2",
+    "html-webpack-plugin": "^5.0.0",
+    "lottie-web": "^5.7.13",
+    "lottie-web-webpack-loader": "0.0.3",
+    "mini-css-extract-plugin": "^1.3.6",
+    "postcss": "^8.2.5",
+    "postcss-cli": "^8.3.1",
+    "postcss-loader": "^5.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.32.6",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.7",
+    "uninstall": "0.0.0"
+  }
+}

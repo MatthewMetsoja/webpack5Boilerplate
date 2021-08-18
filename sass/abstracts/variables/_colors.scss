@@ -1,0 +1,24 @@
+:root,
+[data-theme='default'] {
+  --heading: hsl(297, 96%, 17%);
+  --secondary: hsl(85, 91%, 15%);
+  --egg: #d7e1ec;
+  --white: #fff;
+  --black: #000;
+
+  --primary: hsl(275, 92%, 60%);
+  --grey: hsl(0, 0%, 44%);
+  --tertiary: hsl(333, 92%, 60%);
+
+  --font: #000;
+  --bg: hsl(297, 96%, 11%);
+}
+
+[data-theme='dark'] {
+  --primary: hsl(85, 91%, 56%);
+  --secondary: hsl(275, 92%, 60%);
+  --tertiary: hsl(333, 92%, 60%);
+  --heading: hsl(169, 91%, 65%);
+  --font: #ffffff;
+  --bg: hsl(297, 96%, 11%);
+}
